@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-fixed {
+    position: fixed;
+    z-index: 1;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-black {
+    background: black
+}
+
+.bg-red {
+    background: red;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+.hv-100 {
+    height: 100vh;
+}
+
+.d-block {
+    display: block;
+}
+
+.t-align-center {
+    text-align: center;
+}
